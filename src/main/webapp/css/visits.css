@@ -1,0 +1,156 @@
+/* TABELLA */
+
+.table-wrapper{
+    width:100%;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+a{
+color: red;
+}
+
+table tr{
+    height: 40px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    cursor: pointer;
+}
+
+table tr::after{
+    background: rgb(207, 207, 207);
+}
+
+table th{
+    width:16.65%;
+    text-align: left;
+    padding-left: 30px;
+}
+
+table td{
+    width:16.65%;
+    text-align: left;
+    padding-left: 30px;
+    color: black;
+    font-weight: 400;
+}
+
+table td .bx{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+table #mod{
+    cursor: pointer;
+}
+
+.wrappa{
+    width:100%;
+    padding: 20px;
+    background: white;
+}
+
+.wrappa .visit-wrapper{
+    background: white;
+    height: 400px;
+}
+
+.visit-wrapper h1{
+    margin-left: 20px;
+}
+
+.btn-insert{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn-insert button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    font-size: 15px;
+}
+
+.btn-insert .delete{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(255, 0, 34);
+    color: white;
+    font-size: 15px;
+}
+
+.btn-insert input{
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+
+/* SCROLLBAR */
+
+
+.table-wrapper::-webkit-scrollbar {
+     width: 12px;
+    
+ }
+ 
+.table-wrapper::-webkit-scrollbar-track {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+     border-radius: 10px;
+ }
+ 
+.table-wrapper::-webkit-scrollbar-thumb {
+     border-radius: 10px;
+     background: rgb(87, 87, 87); 
+ }
+ /* GRAPH */
+
+ .charts{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     margin-top: 20px;
+     gap: 20px;
+ }
+
+ .chart-wrapper{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 30%;
+     background: white;
+     height: 400px;
+ }
+
+ .chart-wrapper .chart{
+     width: 400px;
+     background: white;
+  }
+
+ .chart-pren-wrapper{
+     width: 70%;
+     height: 400px;
+     background: white;
+ }
+
+ canvas{
+     width: 200 !important;
+ }

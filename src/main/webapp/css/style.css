@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(255, 255, 255);
+}
+
+.up-bar{
+    height: 150px;
+    width: 100%;
+    background-color: #0ea89e;
+}
+
+.logo{
+    width:40%;
+}
+
+.img-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    height: 250px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #0ea89e;
+    margin-bottom:70px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    background: rgb(255, 255, 255);
+    padding: 40px 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.wrapper h1{
+    font-weight: 800;
+}
+
+.wrapper p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(53, 53, 53)
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 1.5px solid rgb(182, 182, 182);
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.input-check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-check p{
+    color:#0ea89e;
+    cursor: pointer;
+}
+
+.input-check p:hover{
+    text-decoration: underline;
+}
+
+.input-check label{
+    font-weight: 800;
+}
+
+form{
+    width:100%;
+}
+
+.input-box button{
+    width:100%;
+    height: 100%;
+    background:#0ea89e;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.wrapper .p-reg{
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.wrapper .p-reg a{
+    color:#0ea89e;
+    text-decoration: none;
+}
+
+.input-box .hidden{
+    display: none;
+}
+
+.input-box #eye, #eyeO{
+    cursor: pointer;
+}

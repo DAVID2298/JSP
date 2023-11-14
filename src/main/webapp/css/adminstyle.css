@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: rgb(228, 228, 228);
+}
+
+.visit-item{
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    /* border-bottom: 1px solid rgb(177, 177, 177); */
+    height: 30px;
+}
+.pren-up{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.pren-up input{
+    width: 24%;
+    height: 40px;
+    border: 1px solid rgb(192, 192, 192);
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.pren-form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.submit-form-2{
+    margin-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.submit-form-2 button{
+    background:#0ea89e;
+    color: white;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 8vh;
+    background: #0ea89e;
+    padding: 15px;
+}
+
+.nav-bar button{
+    height: 40px;
+    width: 120px;
+    color: black;
+    background:white;
+    border: none;
+    border-radius: 5px;
+}
+
+.logo{
+    width:200px;
+}
+
+.wrapper{
+    position: absolute;
+    width: auto;
+    height: 90vh;
+    padding: 20px;
+    left:235px;
+    right: 10px;
+}
+
+.wrapper .sidebar{
+    position: fixed;
+    background: white;
+    top: 8vh;
+    left: 0;
+    width: 225px;
+    height: 92vh;
+    border-right: 1px solid rgb(214, 214, 214);
+}
+
+.wrapper .sidebar ul li{
+    display: block;
+    padding: 12px 30px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    color: black;
+    font-size: 16px;
+}
+
+.wrapper .sidebar ul li:hover{
+    background: grey;
+    color: white;
+}
+
+.visita-insert{
+    width:100%;
+    height: 845px;
+    /* background: rgb(119, 119, 187); */
+    margin-right: 80px;    
+}
+
+.visita-insert h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.visita-insert .wrapper-visita{
+    background: white;
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+}
+
+.visita-insert .wrapper-visita h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+}
+
+.wrapper-info{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 500px;
+    /* background: blue; */
+}
+
+.wrapper-info .wrapper-image{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width:30%;
+    height: 400px;
+    /* background: red; */
+}
+
+.wrapper-info .wrapper-form{
+    width: 100%;
+    height: 300px;
+    /* background: purple; */
+}
+
+.wrapper-image .display-image{
+    width: 100%;
+    height: 300px;
+    background: rgb(235, 235, 235);
+    border: 2px dashed black;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.wrapper-image .display-image input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    width:100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background: black;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hidden{
+    display: none;
+}
+.wrapper-form{
+    padding: 0 10px 10px 10px;  
+}
+
+.wrapper-form .inline-form{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.wrapper-input{
+    padding-left: 20px;
+}
+
+.wrapper-form input{
+    width:100%;
+    height: 40px;
+    background: white;
+    color: black;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    margin: 10px 2px 10px 2px;
+    padding: 0 0 0 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+.submit-form{
+    width:100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.submit-form button{
+    background:#0ea89e;
+    color: white;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+
+}
+
+.wrapper-form .wrapper-input{
+    width: 70%;
+}
+
+
+
